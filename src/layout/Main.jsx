@@ -1,12 +1,11 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import { Navbar } from '../components/navbar'
-import Footer from '../components/Footer'
+import NavigationBar from '../shared/NavigationBar'
 
 export default function Main() {
   return (
-    <div>
-        <Navbar />
+    <div className='my-3 mx-16'>
+        <NavigationBar />
         <Outlet />   
     </div>
   )

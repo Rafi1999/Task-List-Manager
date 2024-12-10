@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col ">
     {/* Main Content */}
     <main>
-    <div className='mt-16 font-semibold text-5xl'>
+    <div className='mt-16 text-center font-semibold text-5xl'>
         Manage Your Task.
     </div>
     <div className='grid justify-center items-center'>

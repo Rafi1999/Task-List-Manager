@@ -3,7 +3,7 @@ import React from 'react'
 import logoImg from '../assets/logotask.png'
 import { Link } from 'react-router-dom'
 
-export const Navbar = () => {
+export default function NavigationBar() {
   return (
     <div className='flex justify-between'>
     <Link to='/' className='flex justify-center items-center gap-2'>
@@ -17,3 +17,4 @@ export const Navbar = () => {
 </div>
   )
 }
+
